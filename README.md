@@ -52,9 +52,4 @@ Navegue pelas abas:
 git clone https://github.com/KingBolinha/GoatMenu.git
 
 
-math        → animações e interpolação (lerp)
-string      → manipulação e normalização de texto
-table       → utilitários
-render      → sistema principal de desenho
-components  → botões, sliders, inputs, etc
-input       → captura de teclado
+
