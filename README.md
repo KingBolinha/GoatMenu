@@ -51,10 +51,10 @@ Navegue pelas abas:
 ```bash
 git clone https://github.com/KingBolinha/GoatMenu.git
 
-O framework é organizado em módulos internos:
-```math        → animações e interpolação (lerp)
-```string      → manipulação e normalização de texto
-```table       → utilitários
-```render      → sistema principal de desenho
-```components  → botões, sliders, inputs, etc
-```input       → captura de teclado
+
+math        → animações e interpolação (lerp)
+string      → manipulação e normalização de texto
+table       → utilitários
+render      → sistema principal de desenho
+components  → botões, sliders, inputs, etc
+input       → captura de teclado
