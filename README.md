@@ -1,67 +1,68 @@
 🐐 Goat Menu Framework
 
-Um framework completo e modular para criação de interfaces gráficas interativas em ambientes de jogo (FiveM/GTA V), desenvolvido em Lua. O projeto oferece um sistema robusto de menus customizáveis com suporte a múltiplos componentes, animações suaves e interação em tempo real com o usuário.
+A modular and extensible UI framework for building interactive in-game menus in FiveM (GTA V), written in Lua.
+Designed with performance, scalability, and developer experience in mind.
 
-🚀 Principais Funcionalidades
-🧩 Sistema modular de UI
-Abas (tabs) e subtabs dinâmicas
-Seções organizadas (groupboxes)
-🎮 Componentes interativos
-Botões
+✨ Features
+Modular UI system
+Tabs & subtabs
+Section-based layout (groupboxes)
+Interactive components
+Buttons
 Checkboxes (toggles)
 Sliders
-Inputs de texto
-Listas dinâmicas
-🔍 Sistema de busca integrado
-Filtro em tempo real de elementos do menu
-Animações fluidas de expansão
-🎨 Renderização personalizada
-Interface desenhada via GoatAPI.Drawing
-Suporte a fontes customizadas (Font Awesome)
-Sistema de cores e temas configuráveis
-⚡ Sistema de animações
-Transições suaves (lerp / ease in-out)
-Feedback visual responsivo
-⌨️ Sistema de Keybinds
-Associação de teclas para ações
-Suporte a atalhos dinâmicos
-🔔 Sistema de notificações
-Alertas visuais animados
-Feedback de ações do usuário
-📡 Gerenciamento em tempo real
-Cache de jogadores e veículos próximos
-Ordenação por distância
-Interações diretas com entidades do jogo
-🧠 Arquitetura
+Text inputs
+Dynamic lists
+Real-time search system
+Instant filtering of UI elements
+Smooth animated transitions
+Custom rendering engine
+Built on GoatAPI.Drawing
+Font Awesome support
+Theme & color customization
+Animation system
+Lerp-based transitions
+Ease in/out interpolation
+Responsive UI feedback
+Keybind system
+Dynamic key assignment
+Action binding support
+Notification system
+Animated toast notifications
+User feedback handling
+Real-time entity management
+Player & vehicle caching
+Distance-based sorting
+Direct in-game interactions
 
-O framework é estruturado em módulos internos:
+🧠 Architecture
+The framework is organized into internal modules:
+math        → interpolation & animation helpers
+string      → text normalization utilities
+table       → helper utilities
+render      → core rendering system
+components  → reusable UI elements
+input       → keyboard & interaction handling
 
-math → funções auxiliares (lerp, animações)
-string → normalização de texto
-table → utilidades de manipulação
-render → sistema principal de desenho
-components → elementos UI reutilizáveis
-input system → captura de teclado e interação
-🎯 Casos de Uso
-Menus administrativos (admin menu)
-Ferramentas de debug
-Interfaces de mods/scripts
-Sistemas de gerenciamento de jogadores/veículos
-Painéis interativos em servidores FiveM
-⚙️ Tecnologias Utilizadas
+🎯 Use Cases
+Admin menus
+Debug tools
+Modding interfaces
+Player/vehicle management systems
+Interactive dashboards for FiveM servers
+
+⚙️ Tech Stack
 Lua
 FiveM Native Functions
 GoatAPI (Drawing & Fonts)
-📌 Diferenciais
-Alta performance com renderização otimizada
-Estrutura altamente escalável
-Fácil integração com outros scripts
-UX fluida com animações profissionais
-Código organizado e extensível
-📷 Preview
 
-(adicione aqui prints do menu em funcionamento)
+🚀 Highlights
+High-performance rendering
+Scalable and maintainable structure
+Clean and reusable components
+Smooth and responsive UX
+Easy integration with other scripts
 
-📄 Licença
-
-Este projeto está disponível para uso e modificação conforme necessidade. Recomenda-se adicionar uma licença (MIT, GPL, etc.) conforme distribuição.
+📄 License
+This project is available for use and modification.
+Consider adding a license (MIT, GPL, etc.) depending on distribution
