@@ -1,68 +1,60 @@
-🐐 Goat Menu Framework
+# 🐐 Goat Menu Framework
 
-A modular and extensible UI framework for building interactive in-game menus in FiveM (GTA V), written in Lua.
-Designed with performance, scalability, and developer experience in mind.
+![GitHub stars](https://img.shields.io/github/stars/KingBolinha/GoatMenu?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/KingBolinha/GoatMenu?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/KingBolinha/GoatMenu?style=for-the-badge)
+![License](https://img.shields.io/github/license/KingBolinha/GoatMenu?style=for-the-badge)
 
-✨ Features
-Modular UI system
-Tabs & subtabs
-Section-based layout (groupboxes)
-Interactive components
-Buttons
-Checkboxes (toggles)
-Sliders
-Text inputs
-Dynamic lists
-Real-time search system
-Instant filtering of UI elements
-Smooth animated transitions
-Custom rendering engine
-Built on GoatAPI.Drawing
-Font Awesome support
-Theme & color customization
-Animation system
-Lerp-based transitions
-Ease in/out interpolation
-Responsive UI feedback
-Keybind system
-Dynamic key assignment
-Action binding support
-Notification system
-Animated toast notifications
-User feedback handling
-Real-time entity management
-Player & vehicle caching
-Distance-based sorting
-Direct in-game interactions
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![FiveM](https://img.shields.io/badge/FiveM-Scripting-orange?style=for-the-badge)
+![UI Framework](https://img.shields.io/badge/UI-Custom_Framework-blue?style=for-the-badge)
 
-🧠 Architecture
-The framework is organized into internal modules:
-math        → interpolation & animation helpers
-string      → text normalization utilities
-table       → helper utilities
-render      → core rendering system
-components  → reusable UI elements
-input       → keyboard & interaction handling
+---
 
-🎯 Use Cases
-Admin menus
-Debug tools
-Modding interfaces
-Player/vehicle management systems
-Interactive dashboards for FiveM servers
+## ✨ Features
 
-⚙️ Tech Stack
-Lua
-FiveM Native Functions
-GoatAPI (Drawing & Fonts)
+- 🧩 Sistema completo de **menu modular**
+- 📑 Tabs e Subtabs dinâmicas
+- 📦 Seções organizadas (groupboxes)
+- 🎮 Componentes interativos:
+  - Botões
+  - Checkboxes (toggles)
+  - Sliders
+  - Inputs de texto
+  - Listas dinâmicas
+- 🔍 Sistema de busca em tempo real
+- ⚡ Animações suaves (lerp / ease-in-out)
+- 🎨 Interface custom renderizada (GoatAPI)
+- ⌨️ Sistema de keybinds dinâmicos
+- 🔔 Sistema de notificações animadas
+- 📡 Cache de jogadores e veículos por distância
+- 🖱️ Suporte a drag & drop do menu
 
-🚀 Highlights
-High-performance rendering
-Scalable and maintainable structure
-Clean and reusable components
-Smooth and responsive UX
-Easy integration with other scripts
+---
 
-📄 License
-This project is available for use and modification.
-Consider adding a license (MIT, GPL, etc.) depending on distribution
+## 🚀 Uso
+
+Pressione a tecla definida (default: `1`) para abrir o menu.
+
+Navegue pelas abas:
+
+- **Jogador**
+  - Self
+  - Players
+- **Veículos**
+  - Radar
+
+---
+
+## ⚙️ Instalação
+
+```bash
+git clone https://github.com/KingBolinha/GoatMenu.git
+
+O framework é organizado em módulos internos:
+```math        → animações e interpolação (lerp)
+```string      → manipulação e normalização de texto
+```table       → utilitários
+```render      → sistema principal de desenho
+```components  → botões, sliders, inputs, etc
+```input       → captura de teclado
